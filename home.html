@@ -31,7 +31,7 @@
        <!-- features end-->
         <div class="divider"></div>
         <!-- form add money start -->
-         <div id="add-money-form" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+         <div id="add-money-form" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
       <form class="card-body">
         <div class="form-control">
           <label class="label">
@@ -53,7 +53,7 @@
     </div>
         <!-- form add money end -->
         <!-- form Cush Out start -->
-            <div id="cash-out-form" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+            <div id="cash-out-form" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
       <form class="card-body">
         <div class="form-control">
           <label class="label">
@@ -75,8 +75,11 @@
     </div>
         <!-- form Cush Out end -->
          <!-- transaction start -->
-         <div id="transaction-section">
+         <div class="hidden" id="transaction-section">
            <h2 class="text-5xl text-center text-cyan-300">Transaction History</h2>
+           <div id="transaction-container">
+
+           </div>
          </div>
          <!-- transaction end -->
 
